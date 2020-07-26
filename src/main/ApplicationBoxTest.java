@@ -45,9 +45,8 @@ public class ApplicationBoxTest {
 		
 		for(Boolean b : testArray) {
 			if(b==false) {return false;}
-			else {return true;}
 		}
-		return null;
+		return true;
 	}
 
 
